@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.shiksha.com/mediadata/images/1511247606phpZiZEJb.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px; /* Adjust this value to move the form more or less to the left */
+}
+
+.wrapper {
+    width: 600px; /* Increased width */
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px; /* Decreased padding to reduce height */
+    margin-top: 5mm;
+}
+
+form h1, form h2, form h3, form strong, form p {
+    text-align: center;
+    margin-bottom: 15px; /* Decreased margin to reduce height */
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px; /* Decreased margin to reduce height */
+}
+
+.input-box input, .input-box select {
+    width: 100%;
+    padding: 8px; /* Decreased padding to reduce height */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-box input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.input-box label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.input-box input::placeholder {
+    color: #aaa;
+}
+
+input[type="reset"], input[type="button"], input[type="submit"] {
+    width: calc(50% - 10px);
+    padding: 8px; /* Decreased padding to reduce height */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background: #f44336;
+    color: #fff;
+    margin-right: 20px;
+}
+
+input[type="button"], input[type="submit"] {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.sign-in {
+    text-align: center;
+    margin-top: 15px; /* Decreased margin to reduce height */
+}
+
+.sign-in a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.sign-in a:hover {
+    text-decoration: underline;
+}
